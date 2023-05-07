@@ -1,0 +1,32 @@
+body {
+	background-image: url('2.png');
+	background-size: cover;
+}
+
+.hero {
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 50px;
+	text-align: center;
+}
+
+.hero h2 {
+	margin-top: 0;
+}
+
+.featured {
+	background-color: #f7f7f7;
+	padding: 50px;
+	text-align: center;
+}
+
+.pet-gallery {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.pet-gallery img {
+	max-width: 30%;
+}
+
